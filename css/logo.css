@@ -1,0 +1,27 @@
+.logo {
+    margin-bottom: 90px;
+}
+.logo__box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 71px;
+}
+
+@media(max-width: 1024px) {
+    .logo {
+        margin-bottom: 120px;
+    }
+    .logo__box {
+        gap: 32px;
+    }
+}
+
+@media(max-width: 767px) {
+    .logo {
+        margin-bottom: 108px;
+    }
+    .logo__box {
+        gap: 32px;
+    }
+}
